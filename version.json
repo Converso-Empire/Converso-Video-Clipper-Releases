@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "release_date": "2026-07-14",
   "changelog": [
     "Removed relative file paths from pilot.json schema.",

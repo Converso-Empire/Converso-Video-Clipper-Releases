@@ -1,34 +1,76 @@
-# Converso AI Video Clipper - Releases
+<div align="center">
 
-Welcome to the official public release distribution repository for **Converso AI Video Clipper**.
+# 🎬 Converso Video Clipper
 
-This repository hosts compiled standalone binaries (`.exe` files) and version configuration files (`version.json`) used by the clipper's automated updater. 
+**Turn any long-form video into scroll-stopping vertical clips — automatically.**
+
+[![Latest Release](https://img.shields.io/github/v/release/converso-empire/Converso-Video-Clipper-Releases?label=latest&color=6C5CE7)](https://github.com/converso-empire/Converso-Video-Clipper-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/converso-empire/Converso-Video-Clipper-Releases/total?color=00b894)](https://github.com/converso-empire/Converso-Video-Clipper-Releases/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows)](#-installation--usage)
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
+[Download](#-installation--usage) · [Features](#-key-features) · [FAQ](#-faq) · [Support](#-support)
+
+</div>
+
+---
+
+Welcome to the official public release repository for **Converso Video Clipper** — the desktop tool for turning long videos into short, high-impact clips ready for TikTok, YouTube Shorts, and Instagram Reels.
+
+This repo hosts the signed Windows binaries and the `version.json` manifest used by the app's built-in auto-updater.
 
 > [!NOTE]
-> The source code of Converso AI Video Clipper is maintained in a private repository to secure intellectual property, custom rendering pipelines, and license validation routines. Public users only need to download and run the compiled binaries from the Releases page here.
+> The source code, rendering pipeline, and license-validation logic are maintained in a private repository to protect the intellectual property behind Converso. You only need the compiled app from this page — no setup, no dependencies, no command line.
 
 ---
 
 ## 🚀 Key Features
 
-* **Intelligent Vertical Crop**: Automatically detects the center of action or custom coordinates and outputs high-definition portrait videos ideal for TikTok, YouTube Shorts, and Instagram Reels.
-* **Bypass Bot Checks**: Connects seamlessly with Chrome, Firefox, Edge, Brave, Opera, or Safari browser cookies to bypass YouTube bot prompts and `HTTP 429 Too Many Requests` limit walls.
-* **OS-Level Temp Auto-Clean**: Performs all temporary downloading and rendering operations inside the system's temporary directory to save local disk space.
-* **Clean Background Rendering**: Spawns rendering subprocesses (FFmpeg, yt-dlp, and metadata analyzers) invisibly without popping up command prompt terminal windows.
-* **Taskbar Brand Association**: Explicit AppUserModelID registration binds custom application logos directly onto the Windows taskbar.
-* **Forced Security Updates**: Validates startup client version manifests synchronously with the releases server on launch, locking access and applying hot-patches immediately when new updates are issued.
+- **Intelligent Vertical Crop** — automatically detects the center of action (or lets you set custom coordinates) to output high-definition portrait video.
+- **Bot-Check Bypass** — reads cookies from Chrome, Firefox, Edge, Brave, Opera, or Safari to get past YouTube's sign-in walls and `HTTP 429` rate limits.
+- **Zero Disk Clutter** — all downloading and rendering happens in your system temp directory and is cleaned up automatically.
+- **Silent Background Rendering** — FFmpeg, yt-dlp, and metadata analysis all run invisibly, with no terminal windows popping up.
+- **Native Windows Branding** — proper AppUserModelID registration so the app icon shows correctly pinned to your taskbar.
+- **Always Up To Date** — the app checks its version manifest on every launch and applies hot-patches immediately when a new release goes out.
 
 ---
 
 ## 💾 Installation & Usage
 
-1. Navigate to the **[Releases](https://github.com/converso-empire/Converso-Video-Clipper-Releases/releases)** section.
-2. Download the latest `ConversoVideoClipper.exe` executable.
-3. Run the application. On startup, the configuration files will be set up automatically under `%AppData%\Converso Developers\Converso Video Clipper\`.
-4. Output clips will default directly to a space-free sanitized directory on your **Desktop**.
+1. Go to the **[Releases page](https://github.com/converso-empire/Converso-Video-Clipper-Releases/releases/latest)**.
+2. Download `ConversoVideoClipper.exe`.
+3. Run it — on first launch it creates its config folder at `%AppData%\Converso Developers\Converso Video Clipper\`.
+4. Finished clips land in a clean, space-free folder on your **Desktop** by default.
+
+No installer, no admin rights, no extra downloads required.
+
+---
+
+## ❓ FAQ
+
+**Is this safe to run?**
+Yes — the binary is built and signed directly from our private source repository via automated CI. Nothing here is hand-uploaded.
+
+**Why is the source code private?**
+The clipper relies on proprietary rendering and licensing logic we're not open-sourcing. You get the compiled tool; the internals stay protected.
+
+**How do updates work?**
+The app checks `version.json` in this repo on launch and prompts (or auto-applies) an update when a newer release is published.
+
+---
+
+## 🛟 Support
+
+Found a bug or have a feature request? Open an [issue](https://github.com/converso-empire/Converso-Video-Clipper-Releases/issues) — the Converso Developers team monitors this repo directly.
 
 ---
 
 ## 📄 License
 
-This software is distributed under the MIT License. See the accompanying `LICENSE` file for details.
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for the full text.
+
+<div align="center">
+
+Built with ⚙️ by **[Converso Empire](https://conversoempire.world)**
+
+</div>
