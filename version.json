@@ -1,0 +1,10 @@
+{
+  "version": "2.2.0",
+  "release_date": "2026-07-14",
+  "changelog": [
+    "Removed relative file paths from pilot.json schema.",
+    "Migrated default output directory to the user's Desktop with space-free folder names.",
+    "Configured default temp files folder to use Windows Temp directory.",
+    "Moved app settings configuration and system logs to the Roaming AppData folder."
+  ]
+}
