@@ -1,10 +1,10 @@
 {
-  "version": "2.2.1",
-  "release_date": "2026-07-14",
+  "version": "2.2.2",
+  "release_date": "2026-07-18",
   "changelog": [
-    "Removed relative file paths from pilot.json schema.",
-    "Migrated default output directory to the user's Desktop with space-free folder names.",
-    "Configured default temp files folder to use Windows Temp directory.",
-    "Moved app settings configuration and system logs to the Roaming AppData folder."
+    "Implemented a fully functional self-updater that streams the latest binary directly from GitHub Releases.",
+    "Added a native Qt progress dialog to display download percentage live to the user.",
+    "Added automatic application restart 1.3 seconds after a successful update installation.",
+    "Configured automatic cleanup of leftover old executable files at startup."
   ]
 }
