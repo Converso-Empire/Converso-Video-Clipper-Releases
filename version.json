@@ -1,8 +1,8 @@
 {
-  "version": "3.0.0.5",
+  "version": "3.0.0.6",
   "release_date": "2026-07-21",
   "changelog": [
-    "Major Version 3.0.0.5 Release with complete Windows platform compatibility & zero runtime errors.",
+    "Major Version 3.0.0.6 Release with complete Windows platform compatibility & zero runtime errors.",
     "Added built-in REST API Server (FastAPI) for automated video clipping via HTTP endpoints.",
     "Added MinIO Cloud Storage Auto-Upload support for seamless post-processing distribution.",
     "Migrated packaging architecture to stable PyInstaller one-folder bundle with bundled Qt plugins.",
