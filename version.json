@@ -1,10 +1,11 @@
 {
-  "version": "2.2.2",
-  "release_date": "2026-07-18",
+  "version": "3.0.0.4",
+  "release_date": "2026-07-21",
   "changelog": [
-    "Implemented a fully functional self-updater that streams the latest binary directly from GitHub Releases.",
-    "Added a native Qt progress dialog to display download percentage live to the user.",
-    "Added automatic application restart 1.3 seconds after a successful update installation.",
-    "Configured automatic cleanup of leftover old executable files at startup."
+    "Major Version 3.0.0.4 Release with complete Windows platform compatibility & zero runtime errors.",
+    "Added built-in REST API Server (FastAPI) for automated video clipping via HTTP endpoints.",
+    "Added MinIO Cloud Storage Auto-Upload support for seamless post-processing distribution.",
+    "Migrated packaging architecture to stable PyInstaller one-folder bundle with bundled Qt plugins.",
+    "Integrated native vendor binaries (ffmpeg, ffprobe, yt-dlp) and startup health check self-healing."
   ]
 }
