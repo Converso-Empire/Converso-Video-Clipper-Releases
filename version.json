@@ -1,11 +1,7 @@
 {
-  "version": "3.0.0.6",
+  "version": "3.0.0.7",
   "release_date": "2026-07-21",
   "changelog": [
-    "Major Version 3.0.0.6 Release with complete Windows platform compatibility & zero runtime errors.",
-    "Added built-in REST API Server (FastAPI) for automated video clipping via HTTP endpoints.",
-    "Added MinIO Cloud Storage Auto-Upload support for seamless post-processing distribution.",
-    "Migrated packaging architecture to stable PyInstaller one-folder bundle with bundled Qt plugins.",
-    "Integrated native vendor binaries (ffmpeg, ffprobe, yt-dlp) and startup health check self-healing."
+    "Version 3.0.0.7 Maintenance Release — fixed NoneType standard stream AttributeError on GUI launch."
   ]
 }
